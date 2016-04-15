@@ -47,6 +47,9 @@ echo '<br/>';
 echo '<br/>';
 if($matches[1][0] != NULL){
 echo $matches[1][0],' INSCRITOS';
+echo '<form target="_blank" action="'.$channel.'">';
+echo '<input type="image" src="sub.png" alt="Submit">';
+echo '</form>';
 }
 echo '</b></h3></center>';
 ?>   
