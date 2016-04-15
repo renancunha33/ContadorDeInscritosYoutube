@@ -45,7 +45,9 @@ echo '<center><h3><b>';
 echo get_title($channel) ;
 echo '<br/>';
 echo '<br/>';
+if($matches[1][0] != NULL){
 echo $matches[1][0],' INSCRITOS';
+}
 echo '</b></h3></center>';
 ?>   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
